@@ -8,23 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		05E78E3820272BE00007B7E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E78E3720272BE00007B7E4 /* AppDelegate.swift */; };
-		05E78E3A20272BE00007B7E4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E78E3920272BE00007B7E4 /* MainViewController.swift */; };
+		05E78E3A20272BE00007B7E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E78E3920272BE00007B7E4 /* ViewController.swift */; };
 		05E78E3D20272BE00007B7E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E78E3B20272BE00007B7E4 /* Main.storyboard */; };
 		05E78E3F20272BE00007B7E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E78E3E20272BE00007B7E4 /* Assets.xcassets */; };
 		05E78E4220272BE00007B7E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E78E4020272BE00007B7E4 /* LaunchScreen.storyboard */; };
-		05E78E4A20273EB00007B7E4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E78E4920273EB00007B7E4 /* SecondViewController.swift */; };
+		05E78E4A20273EB00007B7E4 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E78E4920273EB00007B7E4 /* QuizViewController.swift */; };
 		05E78E4C20273F0F0007B7E4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E78E4B20273F0F0007B7E4 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05E78E3420272BE00007B7E4 /* mathtraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mathtraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E78E3720272BE00007B7E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05E78E3920272BE00007B7E4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		05E78E3920272BE00007B7E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		05E78E3C20272BE00007B7E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05E78E3E20272BE00007B7E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05E78E4120272BE00007B7E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05E78E4320272BE00007B7E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05E78E4920273EB00007B7E4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		05E78E4920273EB00007B7E4 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		05E78E4B20273F0F0007B7E4 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,8 +71,8 @@
 		05E78E4D20273F1E0007B7E4 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				05E78E3920272BE00007B7E4 /* MainViewController.swift */,
-				05E78E4920273EB00007B7E4 /* SecondViewController.swift */,
+				05E78E3920272BE00007B7E4 /* ViewController.swift */,
+				05E78E4920273EB00007B7E4 /* QuizViewController.swift */,
 				05E78E4B20273F0F0007B7E4 /* ThirdViewController.swift */,
 			);
 			path = UI;
@@ -150,8 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05E78E4A20273EB00007B7E4 /* SecondViewController.swift in Sources */,
-				05E78E3A20272BE00007B7E4 /* MainViewController.swift in Sources */,
+				05E78E4A20273EB00007B7E4 /* QuizViewController.swift in Sources */,
+				05E78E3A20272BE00007B7E4 /* ViewController.swift in Sources */,
 				05E78E4C20273F0F0007B7E4 /* ThirdViewController.swift in Sources */,
 				05E78E3820272BE00007B7E4 /* AppDelegate.swift in Sources */,
 			);
